@@ -39,7 +39,6 @@ function drag(el,event) {
 	if (event.preventDefault) {
 		event.preventDefault();
 	}
-
 	function moveHandler(e) {
 
 		var scroll = getScroll();
